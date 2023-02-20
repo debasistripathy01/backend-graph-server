@@ -18,9 +18,9 @@ app.use(cors({
 }))
 
 
-// app.use("/", (req, res)=>{
-//     res.send("Home Page");
-// })
+app.use("/", (req, res)=>{
+    res.send("Home Page");
+})
 
 
 
